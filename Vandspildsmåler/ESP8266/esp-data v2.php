@@ -3,12 +3,8 @@
 <?php
 
 $servername = "localhost";
-
-
 $dbname = "Test";
-
 $username = "debian-sys-maint";
-
 $password = "5u0Gzk06Ezn1anzh";
 
 // Laver connection til SQL via SQLI
