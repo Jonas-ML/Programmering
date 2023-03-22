@@ -16,10 +16,10 @@ motor4.start(0)
 
 print("Kører serveren\n")
 
-host = "0.0.0.0" # Dette er IP-adressen for Raspberry Pi
-port = 3000 # Husk at portnumre på 1024 og lavere er priviligerede
+host = "0.0.0.0" #IP-adressen for Raspberry Pi
+port = 3000
 
-skt = socket.socket(socket.AF_INET, socket.SOCK_DGRAM) # Man kan give argumenter til denne (f.eks. om det skal være TCP eller UDP)
+skt = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
 skt.bind((host, port)) # Tilskriver IP-adressen og porten til vores socket
 
 while True:
