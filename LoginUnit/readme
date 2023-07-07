@@ -1,0 +1,3 @@
+This project was fopr our school, where we had to make an attendance logging unit, connected to a centralized database on our HP proliant server
+the script is running on the unit, checking for mathing ID's amd such in the database, so only real students can check-in. it also checks if you have class on the specific day
+admin_interface is for the admins on the school. This program can add/delete students, classes, school days, change attendance for a student and also show you the attendance of either an individual or a whole class
